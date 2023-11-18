@@ -1,0 +1,34 @@
+.search-bar {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #05be50;
+    border-radius: 4px;
+    height: 48px;
+    input {
+      border: none;
+      outline: none;
+      width: 642px;
+      margin-left: 12px;
+    }
+    input::placeholder {
+      font-weight: 600;
+      color: #b7babc;
+    }
+  }
+  &__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #05be50;
+    height: 100%;
+    width: 48px;
+    svg {
+      height: 22px;
+      fill: white;
+    }
+  }
+}
